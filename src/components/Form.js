@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
 function Form(props) {
-    const [name, setName] = useState('Anything');
+    const [name, setName] = useState('');
     function handleSubmit(e) {
         e.preventDefault();
-        props.addTask("Say hello!");
+        props.addTask(name);
         // Think about how you reset your timer for Doggie Speed Dating
         // Why does this clear the output thinking about that ?
         setName("");
