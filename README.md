@@ -8,6 +8,8 @@ In the project directory, you can run:
 
 ### `git clone` https://github.com/ariannagbasha/task-mantic
 
+### `npm install`
+
 ### `npm start`
 
 Runs the app in the development mode.
